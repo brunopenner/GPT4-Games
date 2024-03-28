@@ -1,0 +1,28 @@
+#pong {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #000;
+    margin: 20px auto;
+  }
+  .paddle {
+    position: absolute;
+    width: 10px;
+    height: 70px;
+    background: #FFF;
+  }
+  #paddleA {
+    left: 0;
+  }
+  #paddleB {
+    right: 0;
+  }
+  #ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    top: 50%;
+    background: #FFF;
+  }
+  
